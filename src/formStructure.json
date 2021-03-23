@@ -1,0 +1,42 @@
+[
+  {
+    "elements": [
+      {
+        "element_id": "email",
+        "element_placeholder": "email@example.com",
+        "element_label": "Email",
+        "element_required": true,
+        "element_data_type": "string",
+        "element_type":"email"
+      },
+      {
+        "element_id": "password",
+        "element_placeholder": "Password",
+        "element_label": "Password",
+        "element_required": true,
+        "element_type":"password"
+      },
+      {
+        "element_id": "repeat-password",
+        "element_placeholder": "Password",
+        "element_label": "Repeat your password",
+        "element_required": true,
+        "element_type":"password"
+      },
+      {
+        "element_id": "nickname",
+        "element_placeholder": "Nickname",
+        "element_label": "Nickname",
+        "element_required": false,
+        "element_type":"text"
+      },
+      {
+        "element_id": "age",
+        "element_placeholder": "Age",
+        "element_label": "Age",
+        "element_required": false,
+        "element_type":"number"
+      }
+    ]
+  }
+]
