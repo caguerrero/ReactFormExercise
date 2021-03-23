@@ -17,7 +17,7 @@
         "element_type":"password"
       },
       {
-        "element_id": "repeat-password",
+        "element_id": "repeat_password",
         "element_placeholder": "Password",
         "element_label": "Repeat your password",
         "element_required": true,
@@ -31,9 +31,23 @@
         "element_type":"text"
       },
       {
+        "element_id": "date",
+        "element_placeholder": "",
+        "element_label": "Birth Day",
+        "element_required": false,
+        "element_type":"date"
+      },
+      {
         "element_id": "age",
         "element_placeholder": "Age",
         "element_label": "Age",
+        "element_required": false,
+        "element_type":"number"
+      },
+      {
+        "element_id": "email_numbers",
+        "element_placeholder": "How many emails do you use?",
+        "element_label": "Number of emails",
         "element_required": false,
         "element_type":"number"
       }
